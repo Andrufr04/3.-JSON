@@ -89,9 +89,11 @@
 
             render(container) {
                 const rectangleElement = document.createElement('div');
+                
                 rectangleElement.style.width = `${this.width}px`;
                 rectangleElement.style.height = `${this.height}px`;
                 rectangleElement.style.backgroundColor = `rgb(${this.color})`;
+                
                 rectangleElement.classList.add('rectangle');
 
                 const colorNameText = document.createElement('p');
